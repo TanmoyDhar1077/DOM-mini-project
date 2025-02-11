@@ -10,7 +10,7 @@ const updateCount = (value) => {
 
 
     // for plus button
-    if (count >= 10) {
+    if (count >= 15) {
         plusBtn.setAttribute('disabled', true);
     }else {
         plusBtn.removeAttribute('disabled', false);
